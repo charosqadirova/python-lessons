@@ -42,4 +42,6 @@ y = int(input("Daraja kiriting: "))
 
 daraja(x, y)
 
+                                                                                                                                        
+
     
