@@ -32,3 +32,17 @@ def isEven(number):
     return "juft" if number % 2 == 0 else "toq"
 print(isEven(12)) # juft
 print(isEven(23)) # toq
+
+
+# 4
+# unli harflar = ['a', 'i', 'u', 'e', 'o']
+# masalan: "salom" => 2 ta unli (a, o)
+vowles = ['a', 'i', 'u', 'e', 'o']
+def count_vowels(word):
+    count = 0 
+    for letter in word.lower():
+        if letter in vowles:
+            count += 1
+    return count
+print(count_vowels("salom")) # 2
+
